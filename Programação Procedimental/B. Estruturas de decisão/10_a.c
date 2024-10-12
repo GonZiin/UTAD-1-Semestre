@@ -21,7 +21,7 @@ int main(void)
 
     media = (nota_um + nota_dois) / 2;
 
-    printf("Media: %.2f\n", media);
+    printf("Média: %.2f\n", media);
 
     if (media < 9.5 && media >= 0)
         printf("REPROVADO\n");

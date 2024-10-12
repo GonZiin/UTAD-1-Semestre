@@ -10,6 +10,9 @@ automaticamente reprovado. */
 #include <stdio.h>
 #include <locale.h>
 
+#include <stdio.h>
+#include <locale.h>
+
 int main(void)
 {
     setlocale(LC_ALL, "Portuguese");
@@ -25,9 +28,9 @@ int main(void)
     if(nota_um >= 8.5 && nota_dois >= 8.5)
         media = ((0.40 * nota_um) + (0.60 * nota_dois));
     else
-        printf("REPROVADO PORQUE UMA DAS SUAS NOTAS FOI MENOR QUE 8.5");
+        printf("REPROVADO PORQUE UMA DAS SUAS NOTAS FOI MENOR QUE 8.5\n");
 
-    printf("Media: %.2f\n", media);
+    printf("Média: %.2f\n", media);
 
     if (media < 9.5 && media >= 0)
         printf("REPROVADO\n");
