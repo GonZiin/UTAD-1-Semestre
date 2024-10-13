@@ -1,3 +1,8 @@
+/* Implemente um programa que converta um valor em bytes para um formato 
+legível (Kilo, Mega, Giga ou Tera bytes consoante o múltiplo que melhor se adapte 
+a uma representação de fácil leitura do valor). Considere 1024 bytes = 1Kbytes 
+Exemplo: 16548973 bytes = 15,78 MB */
+
 #include <stdio.h>
 #include <math.h>
 

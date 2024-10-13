@@ -1,3 +1,6 @@
+/* Implemente um programa que faça a classificação qualitativa de uma nota (valor 
+inteiro) de um aluno segundo os seguintes níveis*/
+
 #include <stdio.h>
 #include <locale.h>
 

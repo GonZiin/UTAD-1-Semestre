@@ -1,3 +1,6 @@
+/*. Implemente um programa de uma máquina de calcular com as 4 operações 
+básicas. */
+
 #include <stdio.h>
 #include <locale.h>
 

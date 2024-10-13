@@ -1,3 +1,9 @@
+/*. Implemente um programa que converta um par de valores (horas, minutos) do 
+formato 24 horas para o formato AM/PM. 
+Exemplo: 13h07 -> 1h07 PM 
+00h25 -> 12h25 AM 
+12h21 -> 12h21 PM */
+
 #include <stdio.h>
 
 int main(void)
