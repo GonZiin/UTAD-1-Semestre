@@ -1,3 +1,7 @@
+/* Implemente um programa que permita, após a inserção de três valores 
+correspondentes a comprimentos de segmentos de reta, verificar se estes podem 
+formar um triângulo retângulo. */
+
 #include <stdio.h>
 #include <locale.h>
 
