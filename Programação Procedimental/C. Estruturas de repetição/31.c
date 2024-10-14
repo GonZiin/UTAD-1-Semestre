@@ -1,3 +1,7 @@
+/* Implemente um programa que permita encontrar o maior e menor número de 
+uma série de números positivos fornecidos. A sequência termina com o número 
+‘0’. */
+
 #include <stdio.h>
 #include <limits.h>
 #include <locale.h>
