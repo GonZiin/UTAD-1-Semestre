@@ -14,10 +14,9 @@ int main(void) {
         fgets(nomes[i], TAM_NOME, stdin);
     }
     
-    // Mostrar os nomes
     printf("\nOs nomes completos introduzidos foram:\n");
     for (int j = 0; j < MAX_NOMES; j++) {
-        printf("%s", nomes[j]); // Imprimir cada nome
+        printf("%s", nomes[j]);
     }
 
     return 0;
