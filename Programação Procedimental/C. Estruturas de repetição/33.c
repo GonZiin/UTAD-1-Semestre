@@ -13,17 +13,14 @@ int main(void) {
     printf("Introduza o número que deseja calcular o fatorial: ");
     scanf("%d", &numero);
 
-    // Verifica se o número é negativo
     if (numero < 0) {
         printf("Fatorial não definido para números negativos.\n");
         return 1;
     }
 
     for(i = numero; i > 1; i--) {
-        resultado *= i; // Multiplica o resultado pelo número atual
+        resultado *= i;
     }
 
     printf("Resultado: %d\n", resultado);
-
-    return 0;
 }
